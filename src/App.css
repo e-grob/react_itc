@@ -37,6 +37,39 @@
   }
 }
 
-ul {
+/* ul {
   list-style-type: none;
+} */
+
+.green-box {
+  background-color: palegreen;
+  width: 600px;
+  height: 400px;
+  text-align: center;
+}
+.blue-box {
+  background-color: paleturquoise;
+  width: 550px;
+  height: 350px;
+  display: inline-block;
+  margin-top: 4.4%;
+}
+.pink-box {
+  background-color: lightpink;
+  width: 500px;
+  height: 300px;
+  display: inline-block;
+  margin-top: 4.4%;
+}
+.purple-div {
+  margin: 6%;
+}
+
+.purple-box1,
+.purple-box2 {
+  background-color: plum;
+  width: 320px;
+  height: 110px;
+  display: inline-block;
+  margin: 1% 0;
 }
