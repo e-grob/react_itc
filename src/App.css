@@ -10,6 +10,13 @@ hr {
   width: 40%;
   margin-left: 0%;
 }
+.checkbox {
+  margin: 20% 0 0 30%;
+  font-size: 30px;
+}
+input {
+  font-size: 80px;
+}
 /* 
 ex4
 body {

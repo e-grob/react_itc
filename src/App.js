@@ -1,12 +1,14 @@
 import React from "react";
 import "./App.css";
-import Alert from "./components/alert";
+import Checkbox from "./components/alert";
 //import List from "./components/ListUsers100";
 
-function App() {
-  return <Alert></Alert>;
+class App extends React.Component {
+  render() {
+    return <Checkbox></Checkbox>;
+    // return <Alert></Alert>;
+  }
 }
-
 export default App;
 
 {
