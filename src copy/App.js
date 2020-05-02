@@ -1,10 +1,9 @@
 import React from "react";
 import "./App.css";
-import Alert from "./components/alert";
-//import List from "./components/ListUsers100";
+import List from "./components/ListUsers100";
 
 function App() {
-  return <Alert></Alert>;
+  return <List></List>;
 }
 
 export default App;
