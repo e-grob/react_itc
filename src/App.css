@@ -1,3 +1,17 @@
+.list {
+  list-style: none;
+}
+
+.user-num {
+  font-weight: bold;
+}
+
+hr {
+  width: 40%;
+  margin-left: 0%;
+}
+/* 
+ex4
 body {
   margin: 0;
   padding: 0;
@@ -84,11 +98,12 @@ body {
 }
 .sub-text {
   font-size: 13px;
-}
+} */
 
 /* .App {
   text-align: center;
 }
+ex3
  .green-box {
   background-color: palegreen;
   width: 600px;

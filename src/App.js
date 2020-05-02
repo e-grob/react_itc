@@ -1,21 +1,25 @@
 import React from "react";
 import "./App.css";
-import NavBar from "./components/NavBar";
-import MainPage from "./components/MainPage";
+import List from "./components/ListUsers100";
 
 function App() {
-  return (
-    <container>
-      <NavBar></NavBar>
-      <MainPage></MainPage>
-    </container>
-  );
+  return <List></List>;
 }
 
 export default App;
 
 {
   /* 
+
+  //import NavBar from "./components/NavBar";
+//import MainPage from "./components/MainPage";
+  //ex4
+    // <container>
+    //   <NavBar></NavBar>
+    //   <MainPage></MainPage>
+    // </container>
+
+  //ex3
     <Boxes>
       <div className="box2">
         <div className="box3"></div>
@@ -23,6 +27,7 @@ export default App;
       </div>
     </Boxes>
   );
+  //ex2
 }//     <ul className="user-list">
     //       <h4>Travel Locations</h4>
     //       <ListItem
